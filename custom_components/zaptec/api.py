@@ -7,7 +7,7 @@ from concurrent.futures import CancelledError
 
 import aiohttp
 import async_timeout
-import chardet
+# import chardet
 from azure.servicebus.aio import ServiceBusClient
 from azure.servicebus.exceptions import ServiceBusError
 
